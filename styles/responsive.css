@@ -1,0 +1,47 @@
+
+
+@media screen and (max-width:576px){
+
+.banner-container,.card-container,nav,.play-section-container
+
+    {  
+        flex-direction: column;
+        
+  
+    }
+    .online-game-section,.video-cards h1{
+        
+        text-align: center;
+    }
+
+    /* .play-section-container{
+        margin: 0 auto;
+    } */
+    .footer-services{
+        flex-direction: column;
+    }
+
+    .game-type{
+        grid-template-columns: repeat(3,1fr);
+        width:200px;
+    }
+    footer{
+        width: auto;
+    }
+  
+}
+
+@media screen and (min-width : 577px) and (max-width:992px) {
+
+    .banner-container,.card-container,nav,.play-section-container
+
+    {  
+        flex-direction: column;
+        
+  
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
