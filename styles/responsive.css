@@ -58,6 +58,9 @@
 
 
 
+   
+
+
    .online-game-section 
    
    {
@@ -71,7 +74,25 @@
 
   }
 
-    
+
+
+  /* play section */
+
+  .play-instantly-section {
+    width: 100%;
+  }
+.play-section-container{
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.play-section-right img{
+    width: 300px;
+}
+
 }
 
 
