@@ -115,7 +115,7 @@ p {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    /* line-height: 30px; */
     /* 166.667% */
 }
 
@@ -384,7 +384,7 @@ p {
     margin: 0 auto;
 
 
-padding-right: 15%;
+/* padding-right: 15%; */
 }
 
 
