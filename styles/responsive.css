@@ -24,25 +24,52 @@
     /* responsive nav end */
 
     .banner-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 20px;
        
         
     }
+
+    .left-content-text{
+        /* border: 2px solid tomato; */
+        margin: 0 auto;
+       
+    }
     .banner-content-left,.banner-content-right {
         width: 100%;
+        margin: 0 auto;
     }
 
     .banner-content-right img{
         width: 300px;
         margin: 0 auto;
+        margin-top: 30px;
     }
 
    .banner-title{
-    font-size: 3rem;
+    font-size: 2rem;
    }
    .banner-main-title{
-    font-size: 4rem;
+    font-size: 3rem;
    }
+
+
+   /* banner section end */
+
+
+
+   .online-game-section 
+   
+   {
+    flex-direction: column;
+   
+   }
+  .card-container{
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+
+  }
 
     
 }
