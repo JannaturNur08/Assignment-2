@@ -20,8 +20,38 @@
         width: 50%;
         margin-bottom: 10px;
     }
+
+    /* responsive nav end */
+
+    .banner-container{
+        flex-direction: column;
+       
+        
+    }
+    .banner-content-left,.banner-content-right {
+        width: 100%;
+    }
+
+    .banner-content-right img{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+   .banner-title{
+    font-size: 3rem;
+   }
+   .banner-main-title{
+    font-size: 4rem;
+   }
+
     
 }
+
+
+
+
+
+
 .display{
     display: none;
 }
